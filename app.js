@@ -5,10 +5,10 @@ for (let i = 0; i < question.length; i++) {
         this.classList.toggle('active');
 
         let answer = this.nextElementSibling;
-        if (answer.style.display === 'block') {
-            answer.style.display = 'none';
+        if (answer.style.maxHeight) {
+            answer.style.maxHeight = null;
         } else {
-            answer.style.display = 'block';
+            answer.style.maxHeight = answer.scrollHeight + 'px';
         }
     });
 }

@@ -62,6 +62,7 @@ body {
 
 .card_question span {
     float: right;
+    transition: all 0.2s ease-out;
 }
 
 .card_question:hover {
@@ -80,7 +81,8 @@ body {
 .card_answer {
     margin-bottom: 1em;
     padding-right: 2.5em;
-    display: none;
+    max-height: 0;
+    overflow: hidden;
     transition: all 0.2s ease-out;
     color: hsl(240, 6%, 50%);
 }
@@ -132,6 +134,7 @@ body {
     }
 
     .card_content {
+        padding-top: 0;
         margin-left: 100px;
         width: 100%;
     }
