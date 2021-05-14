@@ -16,7 +16,7 @@ body {
 }
 
 .card {
-    background: white url(/images/bg-pattern-mobile.svg) top center;
+    background: white url(images/bg-pattern-mobile.svg) top center;
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
