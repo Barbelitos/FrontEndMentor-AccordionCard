@@ -20,9 +20,10 @@ body {
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
-    margin: 150px auto;
+    margin: 20vh auto;
     width: 90%;
     border-radius: 30px;
+    margin-bottom: 1em;
 }
 
 .card_logo {
@@ -125,7 +126,7 @@ body {
 
     .card_logo_box {
         display: block;
-        position: fixed;
+        position: absolute;
         margin-left: -135px;
         margin-top: 130px;
     }
@@ -163,7 +164,7 @@ body {
 
     .card_logo_box {
         display: block;
-        position: fixed;
+        position: absolute;
         margin-left: -135px;
         margin-top: 130px;
     }
